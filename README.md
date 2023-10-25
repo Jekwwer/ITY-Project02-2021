@@ -1,13 +1,12 @@
-# ITY-Project2-2021
+# ITY-Project02-2021
 
-Solution of the 2nd ITY project in 2020/21. \
-Řešení 2. projektu z předmětu ITY v roce 2020/21. \
-VUT FIT
+Solution for the 2nd project from the subject _'ITY (Typography and Publishing)'_ for the academic year 2020/21 at VUT FIT. \
+Řešení 2. projektu z předmětu _'ITY (Typografie a publikování)'_ pro akademický rok 2020/21 na VUT FIT.
 
-## Hodnocení
+## Evaluation
 
-| Chyba                    | Penalizace |       Stav |
-| :----------------------- | :--------: | ---------: |
-| Přetečení sazby overfull |     -1     | Neopraveno |
+| Mistake                | Penalties |      Status |
+| :--------------------- | :-------: | ----------: |
+| Overflow rate overfull |    -1     | Uncorrected |
 
-Celkové hodnocení   **14/15** b.
+Total points: **14/15**
