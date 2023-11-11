@@ -1,31 +1,44 @@
-# ITY-Project02-2021
+# **ITY-Project02-2021**: Math Formatting
 
-Solution for the 2nd project from the subject _'ITY (Typography and Publishing)'_ for the academic year 2020/21 at VUT FIT. \
-Řešení 2. projektu z předmětu _'ITY (Typografie a publikování)'_ pro akademický rok 2020/21 na VUT FIT.
-
-## Task
-
-Create a document in LaTeX that closely resembles the sample document.
-
-### General Information for the Project:
-
-1. **Appearance**:
-   - Don't aim to achieve an exact appearance as the sample document.
-   - It's better to use correct LaTeX structures with slight variations than to use tricks for a "perfect" replica (e.g., inserting artificial horizontal or vertical spaces).
-2. **Document Content**:
-   - The document itself has useful information for the proper completion of the project. Hence, read the document text carefully.
-3. **Commands Used**:
-   - Commands used in document typesetting were mentioned in the ITY lectures, with a few exceptions.
-   - Some previously unmentioned commands are highlighted in the document text.
-   - However, some commands not discussed before were used; but finding them (integral to practical LaTeX use) shouldn't be challenging.
-4. **Special Attention**:
-   - Pay attention to using correct commands for listing, sections, and footnotes.
-   - Be cautious with the correct typesetting of website addresses, emails, and section links. All links in the document are clickable and highlighted when hovered over.
-   - For section links, be wary of the correct translation; incorrect translations can lead to "??", appearing instead of links.
+> 🎓 **University**: [VUT FIT](https://www.fit.vut.cz/)
+>
+> 📚 **Course**: [Typography and Publishing (ITY)](https://www.fit.vut.cz/study/course/268283/)
+>
+> 📅 **Academic Year**: 2020/21
 
 ---
 
-### Basic Document Parameters:
+## 📋 **Project Task**
+
+Create a document in LaTeX that mirrors the provided sample document's structure and format.
+
+---
+
+## 🛠 **General Guidelines**
+
+1. 🎨 **Appearance**:
+
+   - Focus on utilizing proper LaTeX commands rather than mimicking the exact look of the sample.
+   - Prioritize correct LaTeX structures even if it means slight deviations from the sample's appearance.
+
+2. 📝 **Document Content**:
+
+   - The sample document contains crucial information for successful project completion—read thoroughly.
+
+3. 📚 **Commands Usage**:
+
+   - Most typesetting commands were covered in ITY lectures.
+   - Look out for highlighted commands within the document's text.
+   - Some commands might be new; finding and understanding their use is essential for LaTeX proficiency.
+
+4. ✨ **Special Attention Points**:
+   - Ensure accuracy in commands for lists, sections, and footnotes.
+   - Properly typeset web addresses, emails, and ensure all links are functional and highlighted upon hovering.
+   - Correct translation is key for section links to avoid "???" placeholders.
+
+---
+
+## 📄 **Basic Document Specifications**
 
 1. **Page Size**: A4
 2. **Text Area Dimensions**: 18x25cm
@@ -37,22 +50,24 @@ Create a document in LaTeX that closely resembles the sample document.
 
 ---
 
-### Document Compilation Information:
+## 🔧 **Compilation Instructions**
 
-The sample document was typeset in LaTeX using the following tools:
+Typeset using:
 
 1. **Tools**:
+   - `latex`
+   - `dvips -t a4`
+   - `ps2pdf`
 
-   - latex
-   - dvips -t a4
-   - ps2pdf
+> **Pro Tip**: Compiling with `pdflatex` yields an identical output but with a larger file size.
 
-2. **Note**: When using pdflatex, the resulting file looks identical but is twice the size.
+---
 
-## Evaluation
+## 📊 **Evaluation Results**
 
-| Mistake                | Penalties |      Status |
-| :--------------------- | :-------: | ----------: |
-| Overflow rate overfull |    -1     | Uncorrected |
-
-Total points: **14/15**
+| Note                                  |      Status |            |
+| :------------------------------------ | ----------: | ---------: |
+| Overflow rate overfull **(-1 point)** | _NOT Fixed_ |            |
+|                                       |             |            |
+| **Total Points:**                     |             |  **14/15** |
+|                                       |             | 🟢🟢🟢🟢🟡 |
